@@ -48,7 +48,7 @@ python manage.py migrate
 
 ### 5. Load Sample Seed Data
 
-Create sample fitness classes by running:
+path: fitness-class-booking-api/booking/fixtures/seed_data.json
 
 ```bash
 python manage.py loaddata seed_data
