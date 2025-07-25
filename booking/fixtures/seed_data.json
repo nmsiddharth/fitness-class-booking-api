@@ -1,0 +1,43 @@
+[
+  {
+    "model": "booking.fitnessclass",
+    "pk": 1,
+    "fields": {
+      "name": "Morning Yoga",
+      "date": "2025-08-01",
+      "time": "07:00:00",
+      "instructor": "Alice Johnson",
+      "available_slots": 10
+    }
+  },
+  {
+    "model": "booking.fitnessclass",
+    "pk": 2,
+    "fields": {
+      "name": "Evening Cardio",
+      "date": "2025-08-02",
+      "time": "18:00:00",
+      "instructor": "Bob Smith",
+      "available_slots": 8
+    }
+  },
+  {
+    "model": "booking.booking",
+    "pk": 1,
+    "fields": {
+      "fitness_class": 1,
+      "client_name": "Siddharth N",
+      "client_email": "sid@example.com"
+    }
+  },
+  {
+    "model": "booking.booking",
+    "pk": 2,
+    "fields": {
+      "fitness_class": 2,
+      "client_name": "Priya R",
+      "client_email": "priya@example.com"
+    }
+  }
+]
+
