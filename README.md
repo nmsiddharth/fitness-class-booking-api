@@ -46,6 +46,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+
 ### 5. Load Sample Seed Data
 
 path: fitness-class-booking-api/booking/fixtures/seed_data.json
@@ -55,7 +56,14 @@ python manage.py loaddata seed_data
 ```
 
 
-### 6. Run Development Server
+### 6. Create Superuser (Admin Account)
+
+```bash
+python manage.py createsuperuser
+```
+
+
+### 7. Run Development Server
 
 ```bash
 python manage.py runserver
