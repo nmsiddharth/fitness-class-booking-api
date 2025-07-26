@@ -26,8 +26,8 @@
     "pk": 1,
     "fields": {
       "fitness_class": 1,
-      "client_name": "Siddharth N",
-      "client_email": "sid@example.com"
+      "client_name": "Sam",
+      "client_email": "Sam@example.com"
     }
   },
   {
@@ -35,8 +35,8 @@
     "pk": 2,
     "fields": {
       "fitness_class": 2,
-      "client_name": "Priya R",
-      "client_email": "priya@example.com"
+      "client_name": "Sonu",
+      "client_email": "sonu@example.com"
     }
   }
 ]

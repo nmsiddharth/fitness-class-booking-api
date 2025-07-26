@@ -20,9 +20,6 @@ class BookingCreateView(APIView):
         
         class_id = serializer.validated_data['fitness_class'].id
         fitness_class = get_object_or_404(FitnessClass, id = class_id)
-        
-        if fitness_class.available_slots <= 0 :
-            return Response({"error": "No available slots."}, status=status.HTTP_400_BAD_REQUEST)
 
         booking = serializer.save()
         fitness_class.available_slots -= 1
